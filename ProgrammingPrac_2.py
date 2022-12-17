@@ -56,4 +56,4 @@ def cal_gradient(x, y, y_hat, w1, b1, w2, b2):
 # returns the updated parameters by applying the standard gradient descent once.
 # Hint: recall the definition of standard gradient descent algorithm without momentum and decays.
 def update_parameters(parameters, gradient, learning_rate):
-    return parameters - learning_rate*gradient
+    return parameters - learning_rate * gradient
